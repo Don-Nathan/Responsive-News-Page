@@ -1,0 +1,42 @@
+#nav-bar{
+    text-align: left;
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    padding: 10px;
+    z-index: 1000;
+
+}
+#lis{
+    list-style-type: none;
+    display: flex;
+}
+#lat{
+    margin-right: 20px;
+    background-color: black;
+}
+#sp{
+    margin-right: 20px;
+}
+#bu{
+    margin-right: 20px;
+}
+.Chart{
+    float: right;
+    width: 450px;  
+    height: 450px;  
+    margin-left: 10px;
+}
+@media screen and (max-width: 600px) {
+    body {
+background-color: aqua;
+    }
+    .Chart{
+        float: right;
+        width: 250px;  
+        height: 250px;  
+        margin-left: 10px;
+    }
+}
